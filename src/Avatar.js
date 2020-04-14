@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import './Avatar.css';
 import AvatarList from './AvatarList';
+import './Avatar.css';
 import 'tachyons';
 
 class Avatar extends Component {
@@ -70,11 +70,5 @@ class Avatar extends Component {
             )
     }
 }
-
-// class Avatar extends Component{
-//     render(){
-
-//     }
-// }
 
 export default Avatar;
